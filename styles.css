@@ -36,3 +36,10 @@ abbr {
     cursor: pointer;
     text-decoration: none;
 }
+
+#center{
+
+    display: flex;
+    border: 3px solid blue;
+    height: 400px;
+}
