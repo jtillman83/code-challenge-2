@@ -3,5 +3,8 @@
 added html code (no effect)
 inspecting orginal 
 delete added html code 
+was able to add all nessary containers
+having trouble centering google-logo/searchbar
+
 
 
