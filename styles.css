@@ -9,7 +9,7 @@
     color: #4B4B4B;
     font-family: sans-serif;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .nav-position > p:hover {
@@ -21,15 +21,23 @@
     width: 120px;
 }
 
+#app {
+    border-radius: 50%;
+    margin-top: -5px;
+    height: 24px;
+    width: 24px;
+    opacity: .55;
+}
+
 #right {
     width: 200px;
 }
 
-#right img {
+#avatar {
     border-radius: 50%;
     margin-top: 5px;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 abbr {
@@ -37,129 +45,78 @@ abbr {
     text-decoration: none;
 }
 
-#center{
-
+#main {
     display: flex;
- 
-    align-items: flex-end;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: column;
-    align-items: stretch;
-    
-
-
-
-       }
+    height: 48.5em;
+}
 
 input[type='text'] {
-     border: 1px solid #DFE1E6;
-     margin-top: 2.6em;
-     margin-bottom: ;
-     border-radius: 4em;
-     width: 45em;
-     height: 3.5em;
-
-       } 
+    grid-area: search;
+    height: 2.4rem;
+    width: 30rem;
+    align-self: center;
+    justify-self: center;
+    border: 1px solid #DFE1E6;
+    border-radius: 30px;
+    margin-top: 1.5em;
+}
 
 input[type='submit'] {
-
     flex-direction: row;
-    border: 2px solid #F8F9FA;
+    border: 1px solid #F8F9FA;
+    border-radius: 4px;
+    margin: 20px 3px ;
+    padding: 0 16px;
+    margin-top: 2em;
+    margin-bottom: 20em;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
     background-color: #F8F9FA;
-    border-radius: 6px;
-    color: #4B4B4B;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 26px 5px;
-    padding: 0 19px;
-    line-height: 32px;
-    height: 40px;
-    min-width: 60px;
-    margin-top: 44px;
-    margin-bottom: 30em;
-
+    text-align: center;
+    color: #3c4043;
+    font-family: sans-serif;
+    font-size: 14px;
 }
 
 input:hover {
-
     cursor: pointer;
 }
 
-#footer  {
-
-    border-top: 3px solid #2624aa;
+#footer {
+    border-top: 1px solid #dadce0;
     display: flex;
     justify-content: space-between;
-    background-color: beige;
+    background-color: #F2F2F2;
+    right: 0;
     bottom: 0;
     left: 0;
     position: absolute;
-    right: 0;
-    line-height: 3em;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
-    color: aqua;
-
+    line-height: 1em;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #4B4B4B;
 }
 
 .foot-position {
-
     display: flex;
-    justify-content: space-around;
-    font-family: 'Times New Roman', Times, serif;
-
-
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    font-size: 14px;
 }
 
 #fbarleft {
-    width: 270px;
-
+    width: 375px;
 }
 
 #fbarright {
-
-    width: 150px ;
-
+    width: 250px;
 }
 
 .foot-position > p:hover {
-
     cursor: pointer;
-
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-           
-    
-
-
-
-
-
-
-
- 
-     
-                     
-
-
-       
-
-        
-
-    
-        
-
-    
-
-
-
-            
-
